@@ -1,13 +1,13 @@
 # Backend de Autenticação
 
-Este repositório contém o backend de autenticação para a aplicação de login. Ele fornece a infraestrutura necessária para autenticação de usuários utilizando JWT (JSON Web Tokens).
+Este repositório contém o backend de autenticação para a aplicação de login do barbermeucheff, aplicação de agendamento de horários para serviços de uma barbearia. Ele fornece a infraestrutura necessária para autenticação de usuários utilizando JWT (JSON Web Tokens).
 
 ## Tecnologias Utilizadas
 
 - **Java**: Linguagem principal utilizada no backend.
 - **Spring Boot**: Framework para construção de APIs RESTful.
 - **JWT**: Utilizado para autenticação e autorização.
-- **MySQL**: Banco de dados relacional para armazenamento de informações de usuários.
+- **Supabase**: Banco de dados relacional para armazenamento de informações de usuários.
 
 ## Funcionalidades
 
@@ -29,7 +29,7 @@ Este repositório contém o backend de autenticação para a aplicação de logi
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/TN-Junior/login-app-backend.git
+   git clone https://github.com/TN-Junior/barbermeucheff-backend.git
    ```
 
 2. Configure o arquivo `application.properties` com as credenciais do seu banco de dados:
@@ -57,7 +57,6 @@ A aplicação estará disponível em `http://localhost:8080`.
 
 O frontend correspondente para este backend está disponível no seguinte repositório:
 
-[Login Page - Frontend](https://github.com/TN-Junior/login-page.git)
 
 ## Endpoints
 
